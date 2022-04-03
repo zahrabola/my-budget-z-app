@@ -14,7 +14,7 @@ return (
     />
     <button
       type="button"
-      class="btn btn-primary"
+      class="btn btn-primary "
       onClick={() => props.handleClickSave(value)}
     >
       Save

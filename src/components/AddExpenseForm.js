@@ -22,6 +22,10 @@ const expense = {
       type: "ADD_EXPENSE",
       payload: expense,
     });
+
+	setName("");
+  setCost("");
+
 };
     return (
       <form onSubmit={onSubmit}>
